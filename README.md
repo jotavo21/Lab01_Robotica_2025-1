@@ -1,1 +1,2 @@
-# Lab01_Robotica_2025-1
+# Laboratorio 01
+# Trayectorias, Entradas y Salidas Digitales
