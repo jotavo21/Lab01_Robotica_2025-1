@@ -6,5 +6,4 @@ En este laboratorio se estudiaron las funciones básicas del robot industrial AB
 ## Plano de planta de la ubicación de cada uno de los elementos
 ## Descripción de las funciones utilizadas
 ## Diseño de la herramienta detallado 
-## Código en RAPID del módulo utilizado para el desarrollo de la práctica
 ## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
