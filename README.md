@@ -41,6 +41,6 @@ Para el funcionamiento del robot se usaron las siguientes funciones:
 La herramienta utilizada durante la actividad se diseñó considerando dos aspectos principales. En primer lugar, se revisó la hoja técnica del robot ABB IRB 140 para determinar las dimensiones del flange del manipulador y el tamaño adecuado de la rosca a emplear. Finalmente, se estableció que el ángulo de la herramienta fuera de 60 grados, con el propósito de evitar singularidades del tipo *lock gimbal*, las cuales ocurren cuando dos o más articulaciones del robot se alinean.  
 
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Screenshot%202025-10-05%20203235.png)
-## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
+## Simulación en RobotStudio e implementación práctica
 
 [![Ver el video en YouTube](https://img.youtube.com/vi/WaRxE4iGR3M/hqdefault.jpg)](https://www.youtube.com/watch?v=WaRxE4iGR3M)
