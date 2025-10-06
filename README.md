@@ -6,6 +6,13 @@ En este laboratorio se estudiaron las funciones básicas del robot industrial AB
 ## Plano de planta de la ubicación de cada uno de los elementos
 ## Descripción de las funciones utilizadas
 Para el funcionamiento del robot se usaron las siguientes funciones: 
-+Path_I,Path_IA,Path_IAN: Estas funcionas se encargan de 
+Para el funcionamiento del robot se usaron las siguientes funciones: 
++Path_I, Path_IA, Path_IAN: Estas funcionas se encargan de realizar el trazado de las letras del primer nombre, usando MoveJ para la aproximación al target 1. 
++Path_J, Path_JU, Path_JUA, Path_JUAN: Estas funcionas se encargan de realizar el trazado de las letras del segundo nombre, usando MoveJ para la aproximación al target 1.   
++Path_Intermedio: Esta función lleva la herramienta a un target posicionado arriba de la caja. 
++Path_Superior: Está funcion permite que el robot pase al lado de la banda sin golpear objetos en la trayectoria hasta la caja.
++Path_Mantenimiento: Esta función lleva al robot a una posición dónde se le pueda cambiar la herramienta de manera sencilla. 
++Path_Off:
++Path_Home:
 ## Diseño de la herramienta detallado 
 ## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
