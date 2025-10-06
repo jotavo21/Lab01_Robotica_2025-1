@@ -4,7 +4,7 @@ En este laboratorio se estudiaron las funciones básicas del robot industrial AB
 
 ## Descripción detallada de la solución planteada
 ### Calibración
-Primero se calibró la herramienta diseñada para la práctica. Para calibrar la herramienta esta se debe acoplar al manipulador, luego se debe tocar el mismo punto desde cuatro direcciones distintas, es decir, desde diferentes configuraciones del robot. Al finalizar la calibración, se obtuvo un error medio de xxxxxx. A continuación se muestra los resultados obtenidos en la calibración:
+Primero se calibró la herramienta diseñada para la práctica. Para calibrar la herramienta esta se debe acoplar al manipulador, luego se debe tocar el mismo punto desde cuatro direcciones distintas, es decir, desde diferentes configuraciones del robot. Al finalizar la calibración, se obtuvo un error medio de 2.918mm. A continuación se muestra los resultados obtenidos en la calibración:
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Calib%20manual.jpg)
 
 Luego, se calibró el workobject. Para calibrar el workobject, se debe tener el objeto sobre el que se va a trabajar y crear un workobject en el software de ABB, finalmente se definen 3 puntos sobre el workobject, el primer punto indica el origen del workobject, el segundo indica el eje en X y el tercero el eje en Y. A continuación se muestran los resultados de la definición y calibración del workobject:
