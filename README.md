@@ -42,3 +42,5 @@ La herramienta utilizada durante la actividad se diseñó considerando dos aspec
 
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Screenshot%202025-10-05%20203235.png)
 ## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
+
+[![Ver en YouTube](https://img.youtube.com/vi/WaRxE4iGR3M/0.jpg)](https://youtu.be/WaRxE4iGR3M)
