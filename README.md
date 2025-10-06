@@ -5,8 +5,7 @@ En este laboratorio se estudiaron las funciones básicas del robot industrial AB
 ## Diagrama de flujo de acciones del robot
 ## Plano de planta de la ubicación de cada uno de los elementos
 ## Descripción de las funciones utilizadas
-Para el funcionamiento del robot se usaron las siguientes funciones: 
-Para el funcionamiento del robot se usaron las siguientes funciones: 
+Para el funcionamiento del robot se usaron las siguientes funciones:  
 +Path_I, Path_IA, Path_IAN: Estas funcionas se encargan de realizar el trazado de las letras del primer nombre, usando MoveJ para la aproximación al target 1.  
 +Path_J, Path_JU, Path_JUA, Path_JUAN: Estas funcionas se encargan de realizar el trazado de las letras del segundo nombre, usando MoveJ para la aproximación al target 1.  
 +Path_Intermedio: Esta función lleva la herramienta a un target posicionado arriba de la caja.  
