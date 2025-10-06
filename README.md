@@ -3,11 +3,18 @@ En este laboratorio se estudiaron las funciones básicas del robot industrial AB
 ## Descripción detallada de la solución planteada
 ### Calibración
 Primero se calibró la herramienta diseñada para la práctica. Para calibrar la herramienta esta se debe acoplar al manipulador, luego se debe tocar el mismo punto desde cuatro direcciones distintas, es decir, desde diferentes configuraciones del robot. Al finalizar la calibración, se obtuvo un error medio de xxxxxx. A continuación se muestra los resultados obtenidos en la calibración:
-
+![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Calib%20manual.jpg)
 
 Luego, se calibró el workobject. Para calibrar el workobject, se debe tener el objeto sobre el que se va a trabajar y crear un workobject en el software de ABB, finalmente se definen 3 puntos sobre el workobject, el primer punto indica el origen del workobject, el segundo indica el eje en X y el tercero el eje en Y. A continuación se muestran los resultados de la definición y calibración del workobject:
+![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Workobject.jpg)
+
+
 ## Diagrama de flujo de acciones del robot
+![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Diagrama%20flujo%20robot.png)
+
 ## Plano de planta de la ubicación de cada uno de los elementos
+
+
 ## Descripción de las funciones utilizadas
 Para el funcionamiento del robot se usaron las siguientes funciones:  
 +Path_I, Path_IA, Path_IAN: Estas funcionas se encargan de realizar el trazado de las letras del primer nombre, usando MoveJ para la aproximación al target 1.  
@@ -19,5 +26,5 @@ Para el funcionamiento del robot se usaron las siguientes funciones:
 +Path_Home:Esta Posición lleva al robot a la posición inicial, dónde el 6to gdl, no esté en 0 para evitar el Lock Gimbal.  
 ## Diseño de la herramienta detallado 
 La herramienta utilizada durante la actividad se diseñó considerando dos aspectos principales. En primer lugar, se revisó la hoja técnica del robot ABB IRB 140 para determinar las dimensiones del flange del manipulador y el tamaño adecuado de la rosca a emplear. Finalmente, se estableció que el ángulo de la herramienta fuera de 60 grados, con el propósito de evitar singularidades del tipo *lock gimbal*, las cuales ocurren cuando dos o más articulaciones del robot se alinean.
-
+![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Screenshot%202025-10-05%20203235.png)
 ## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
