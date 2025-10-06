@@ -11,9 +11,9 @@ Luego, se calibró el workobject. Para calibrar el workobject, se debe tener el 
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Workobject.jpg)  
 
 ### Creación de las Rutinas  
-Para crear las rutinas, primero se debe exportar el archivo .dwg que contiene las trayectorias deseadas, Se deben crear los targets en los puntos importantes, en general los iniciales, finales e intermedios. Se crean los Paths necesarios para cada trayectoria, inicialemnte un path para cada nombre, pero presentaba problemas en la continuidad de la Línea, se optó entonces por un Path intermedio que aleje la herramienta del objeto y evitar la continuidad en la línea.
-En el Rapid, se ajustan los primeros targets para un acercamiento menos preciso, cambiando la función MoveL por la MoveJ, permitiendo tolerancias mayores a la herramienta. Adaptando la velocidad a la máxima permitida. 
-Para evitar los errores al momento de ejecución se deben emparejar las configuraciones de los targets, usando la herramienta de "Buscar y Reemplazar" en RAPID.
+Para crear las rutinas, primero se debe exportar el archivo .dwg que contiene las trayectorias deseadas, Se deben crear los targets en los puntos importantes, en general los iniciales, finales e intermedios. Se crean los Paths necesarios para cada trayectoria, inicialemnte un path para cada nombre, pero presentaba problemas en la continuidad de la Línea, se optó entonces por un Path intermedio que aleje la herramienta del objeto y evitar la continuidad en la línea.  
+En el Rapid, se ajustan los primeros targets para un acercamiento menos preciso, cambiando la función MoveL por la MoveJ, permitiendo tolerancias mayores a la herramienta. Adaptando la velocidad a la máxima permitida.  
+Para evitar los errores al momento de ejecución se deben emparejar las configuraciones de los targets, usando la herramienta de "Buscar y Reemplazar" en RAPID.  
 ## Diagrama de flujo de acciones del robot
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Diagrama%20flujo%20robot.png)  
 
