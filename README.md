@@ -5,5 +5,7 @@ En este laboratorio se estudiaron las funciones básicas del robot industrial AB
 ## Diagrama de flujo de acciones del robot
 ## Plano de planta de la ubicación de cada uno de los elementos
 ## Descripción de las funciones utilizadas
+Para el funcionamiento del robot se usaron las siguientes funciones: 
++Path_I,Path_IA,Path_IAN: Estas funcionas se encargan de 
 ## Diseño de la herramienta detallado 
 ## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
