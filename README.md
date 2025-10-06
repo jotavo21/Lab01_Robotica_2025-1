@@ -1,5 +1,5 @@
 # Laboratorio 01 Robótica - Trayectorias, Entradas y Salidas Digitales
-En este laboratorio se estudiaron las funciones básicas del robot industrial ABB IRB 140, para esto se diseño una herramienta capaz de sostener un marcador adecuada para el manipulador y se programó una rutina que permitiera al robot escribir el primer nombre de ambos integrantes del grupo, además de un símbolo en un objeto de trabajo escogido para la práctica.
+En este laboratorio se estudiaron las funciones básicas del robot industrial ABB IRB 140 y su programación usando el software RobotStudio, para esto se diseño una herramienta adecuada para el manipulador capaz de sostener un marcador y se programó una rutina que permitiera al robot escribir el primer nombre de ambos integrantes del grupo, además de un símbolo en un objeto de trabajo escogido para la práctica.
 ## Descripción detallada de la solución planteada
 
 ## Diagrama de flujo de acciones del robot
