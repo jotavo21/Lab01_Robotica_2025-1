@@ -10,7 +10,10 @@ Primero se calibró la herramienta diseñada para la práctica. Para calibrar la
 Luego, se calibró el workobject. Para calibrar el workobject, se debe tener el objeto sobre el que se va a trabajar y crear un workobject en el software de ABB, finalmente se definen 3 puntos sobre el workobject, el primer punto indica el origen del workobject, el segundo indica el eje en X y el tercero el eje en Y. A continuación se muestran los resultados de la definición y calibración del workobject:
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Workobject.jpg)  
 
-
+### Creación de las Rutinas  
+Para crear las rutinas, primero se debe exportar el archivo .dwg que contiene las trayectorias deseadas, Se deben crear los targets en los puntos importantes, en general los iniciales, finales e intermedios. Se crean los Paths necesarios para cada trayectoria, inicialemnte un path para cada nombre, pero presentaba problemas en la continuidad de la Línea, se optó entonces por un Path intermedio que aleje la herramienta del objeto y evitar la continuidad en la línea.
+En el Rapid, se ajustan los primeros targets para un acercamiento menos preciso, cambiando la función MoveL por la MoveJ, permitiendo tolerancias mayores a la herramienta. Adaptando la velocidad a la máxima permitida. 
+Para evitar los errores al momento de ejecución se deben emparejar las configuraciones de los targets, usando la herramienta de "Buscar y Reemplazar" en RAPID.
 ## Diagrama de flujo de acciones del robot
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Diagrama%20flujo%20robot.png)  
 
@@ -20,7 +23,8 @@ Revisar en el Repositorio los documentos adjuntos.
 ## Descripción de las funciones utilizadas
 Para el funcionamiento del robot se usaron las siguientes funciones:  
 +Path_I, Path_IA, Path_IAN: Estas funcionas se encargan de realizar el trazado de las letras del primer nombre, usando MoveJ para la aproximación al target 1.  
-+Path_J, Path_JU, Path_JUA, Path_JUAN: Estas funcionas se encargan de realizar el trazado de las letras del segundo nombre, usando MoveJ para la aproximación al target 1.  
++Path_J, Path_JU, Path_JUA, Path_JUAN: Estas funcionas se encargan de realizar el trazado de las letras del segundo nombre, usando MoveJ para la aproximación al target 1.   
++Path_R1: Esta rutina dibuja una figura de un rostro robótico sin levantar la herramienta. 
 +Path_Intermedio: Esta función lleva la herramienta a un target posicionado arriba de la caja.  
 +Path_Superior: Está funcion permite que el robot pase al lado de la banda sin golpear objetos en la trayectoria hasta la caja.  
 +Path_Mantenimiento: Esta función lleva al robot a una posición dónde se le pueda cambiar la herramienta de manera sencilla.  
