@@ -11,7 +11,7 @@ Para el funcionamiento del robot se usaron las siguientes funciones:
 +Path_Intermedio: Esta función lleva la herramienta a un target posicionado arriba de la caja.  
 +Path_Superior: Está funcion permite que el robot pase al lado de la banda sin golpear objetos en la trayectoria hasta la caja.  
 +Path_Mantenimiento: Esta función lleva al robot a una posición dónde se le pueda cambiar la herramienta de manera sencilla.  
-+Path_Off:
-+Path_Home:
++Path_Off: Está rutina lleva al robot a una posición dónde todas sus articulaciones estén en 0 grados.  
++Path_Home:Esta Posición lleva al robot a la posición inicial, dónde el 6to gdl, no esté en 0 para evitar el Lock Gimbal.  
 ## Diseño de la herramienta detallado 
 ## Video que contenga la simulación en RobotStudio así como la implementación de la práctica con los robots reales
