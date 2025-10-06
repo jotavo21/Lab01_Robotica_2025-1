@@ -1,5 +1,7 @@
 # Laboratorio 01 Robótica - Trayectorias, Entradas y Salidas Digitales
-En este laboratorio se estudiaron las funciones básicas del robot industrial ABB IRB 140 y su programación usando el software RobotStudio, para esto se diseño una herramienta adecuada para el manipulador capaz de sostener un marcador y se programó una rutina que permitiera al robot escribir el primer nombre de ambos integrantes del grupo, además de un símbolo en un objeto de trabajo escogido para la práctica.
+En este laboratorio se estudiaron las funciones básicas del robot industrial ABB IRB 140 y su programación usando el software RobotStudio, para esto se diseño una herramienta adecuada para el manipulador capaz de sostener un marcador y se programó una rutina que permitiera al robot escribir el primer nombre de ambos integrantes del grupo, además de un símbolo en un objeto de trabajo escogido para la práctica. El diseño propuesto para lo que se escribirá se muestra a continuación:
+![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Trayectoria%20propuesta.png)
+
 ## Descripción detallada de la solución planteada
 ### Calibración
 Primero se calibró la herramienta diseñada para la práctica. Para calibrar la herramienta esta se debe acoplar al manipulador, luego se debe tocar el mismo punto desde cuatro direcciones distintas, es decir, desde diferentes configuraciones del robot. Al finalizar la calibración, se obtuvo un error medio de xxxxxx. A continuación se muestra los resultados obtenidos en la calibración:
