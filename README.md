@@ -11,9 +11,16 @@ Luego, se calibró el workobject. Para calibrar el workobject, se debe tener el 
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Workobject.jpg)  
 
 ### Creación de las Rutinas  
-Para crear las rutinas, primero se debe exportar el archivo .dwg que contiene las trayectorias deseadas, Se deben crear los targets en los puntos importantes, en general los iniciales, finales e intermedios. Se crean los Paths necesarios para cada trayectoria, inicialemnte un path para cada nombre, pero presentaba problemas en la continuidad de la Línea, se optó entonces por un Path intermedio que aleje la herramienta del objeto y evitar la continuidad en la línea.  
-En el Rapid, se ajustan los primeros targets para un acercamiento menos preciso, cambiando la función MoveL por la MoveJ, permitiendo tolerancias mayores a la herramienta. Adaptando la velocidad a la máxima permitida.  
-Para evitar los errores al momento de ejecución se deben emparejar las configuraciones de los targets, usando la herramienta de "Buscar y Reemplazar" en RAPID.  
+Para la creación de las rutinas en RobotStudio, el primer paso consiste en exportar el archivo .dwg que contiene las trayectorias previamente diseñadas en AutoCAD. Este archivo define las formas o textos que el robot deberá seguir durante su ejecución.  
+
+Una vez importado el modelo al entorno de trabajo, se procede a crear los targets en los puntos más relevantes de la trayectoria, tales como los puntos iniciales, intermedios y finales. Estos puntos constituyen las referencias espaciales que permiten al robot reproducir con precisión el movimiento deseado.  
+
+Posteriormente, se definen los paths correspondientes a cada trayectoria. En una primera versión, se estableció un path independiente para cada nombre; sin embargo, esto generó problemas de continuidad en la línea, debido a la proximidad entre los segmentos. Para resolverlo, se incorporó un path intermedio de transición, que permite alejar temporalmente la herramienta del objeto, evitando así colisiones o trazos indeseados y mejorando la fluidez general del movimiento.  
+
+En la programación RAPID, los targets iniciales fueron ajustados utilizando la instrucción MoveJ en lugar de MoveL, con el fin de permitir mayores tolerancias en el posicionamiento durante las fases de aproximación. Esta modificación facilita movimientos más suaves y rápidos, especialmente en zonas donde la precisión absoluta no es crítica. Además, se adaptaron las velocidades para aprovechar la máxima capacidad operativa del robot sin comprometer la estabilidad del proceso.  
+
+Finalmente, para prevenir errores durante la ejecución, fue necesario unificar las configuraciones de los targets (orientación, herramienta y objeto de trabajo). Para ello, se empleó la herramienta de “Buscar y Reemplazar” en RAPID, que permite garantizar la coherencia entre los distintos puntos de la trayectoria y evitar inconsistencias de configuración que puedan generar fallas en la simulación o en la ejecución real.  
+
 ## Diagrama de flujo de acciones del robot
 ![image](https://github.com/jotavo21/Lab01_Robotica_2025-1/blob/main/imagenes/Diagrama%20flujo%20robot.png)  
 
